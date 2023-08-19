@@ -3,8 +3,6 @@ const itemList = [
     { id: 2, name: "Mahiru", win: [], lost:[] },
     { id: 3, name: "Yui", win: [], lost:[] },
     { id: 4, name: "Kitagawa", win: [], lost:[] },
-
-
 ]
 count = 0
 
