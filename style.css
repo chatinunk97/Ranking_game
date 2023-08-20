@@ -8,11 +8,10 @@ a {
 }
 
 html{
-    width: 100vw;
-    height: 100vh;
 }
 body{
-    margin: auto;
+    max-width: 100vw;
+    /* min-wdth:  100vw; */
 }
 div.box {
 
@@ -20,8 +19,7 @@ div.box {
     margin: auto;
     margin-top: 20px;
     background-color: rgb(245, 245, 245);
-    width: 1000px;
-    height: 100%;
+    width: 100%;
     padding-block: 50px;
     border-radius: 15px;
     flex-wrap: wrap;
@@ -37,7 +35,7 @@ div.box {
     box-shadow: 4px 4px 5px grey;
     transition: all 0.2s;
     padding: 10px;
-    flex-basis: 38%;
+    width: 40%;
     margin-inline: 15px;
 }
 .mid{
@@ -48,7 +46,6 @@ div.box {
     text-align: center;
     box-shadow: 1px 1px 5px grey;
     transition: all 0.2s;
-    flex-basis: 5%;
     margin-inline: 15px;
 }
 .buttonHolder {
@@ -134,10 +131,37 @@ h2 {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
-/* img {
-    height: 380px;
-    width: 380px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
 
-} */
+
+@media only screen and (max-width: 1060px) {
+
+    .left,
+.right {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 4px 4px 5px grey;
+    transition: all 0.2s;
+    padding: 10px;
+    height: 1;
+    width: 30%;
+    margin-inline: 0px;
+    border-radius: 5px;
+}
+.imgRight,.imgLeft{
+    border-radius: 5px;
+    background-position: top;
+    height: 220px;
+    width: 100%;
+}
+.nameLeft,.nameRight{
+    height: 30px;
+}
+h2{
+    font-size: 1.5rem;
+}
+.mid{
+    font-size: 1rem;
+    padding: 10px;
+    margin-inline: 5px;
+}
+  }
