@@ -25,7 +25,6 @@ div.box {
     border-radius: 15px;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 .left,
@@ -35,21 +34,15 @@ div.box {
     margin: 10px;
     box-shadow: 4px 4px 5px grey;
     transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
-    flex-basis: 38%;
+    flex-basis: 40%;
     margin-inline: 15px;
+
 }
-.mid{
-    font-size: 2rem;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 40px;
-    text-align: center;
-    box-shadow: 1px 1px 5px grey;
-    transition: all 0.2s;
-    flex-basis: 5%;
-    margin-inline: 15px;
-}
+
 .buttonHolder {
     width: 100%;
     padding: 20px;
@@ -125,18 +118,9 @@ h2 {
     left: 4px;
 }
 
-.imgRight,.imgLeft{
+img {
     width: 100%;
-    height: 380px;
-
-    background-size: cover;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+
 }
-/* img {
-    height: 380px;
-    width: 380px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-
-} */
