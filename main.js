@@ -1,17 +1,26 @@
 const itemList = [
-    { id: 1, name: "Iori", win: [], lost: [], picUrl: "./idolish7/1.Iori.jpg" },
-    { id: 2, name: "Yamato", win: [], lost: [], picUrl: "./idolish7/2.Yamasan.jpg" },
-    { id: 3, name: "Mitsuki", win: [], lost: [], picUrl: "./idolish7/3.Mizuki.jpg" },
-    { id: 4, name: "Tamaki", win: [], lost: [], picUrl: "./idolish7/4.Tamaki.jpg" },
-    { id: 5, name: "Sogo", win: [], lost: [], picUrl: "./idolish7/5.Souchan.jpg" },
-    { id: 6, name: "Nagi", win: [], lost: [], picUrl: "./idolish7/6.Nagi.jpg" },
-    { id: 7, name: "Riku", win: [], lost: [], picUrl: "./idolish7/7.Rikku.jpg" },
+    //TarmList
+    { id: 1, name: "Iori", win: [], lost: [], picUrl: "./idolish7/1.gif" },
+    { id: 2, name: "Yamato", win: [], lost: [], picUrl: "./idolish7/2.gif" },
+    { id: 3, name: "Mitsuki", win: [], lost: [], picUrl: "./idolish7/3.gif" },
+    { id: 4, name: "Tamaki", win: [], lost: [], picUrl: "./idolish7/4.gif" },
+    { id: 5, name: "Sogo", win: [], lost: [], picUrl: "./idolish7/5.gif" },
+    { id: 6, name: "Nagi", win: [], lost: [], picUrl: "./idolish7/6.gif" },
+    { id: 7, name: "Riku", win: [], lost: [], picUrl: "./idolish7/7.gif" },
     { id: 8, name: "Gaku", win: [], lost: [], picUrl: "./idolish7/8.Gaku.jpg" },
     { id: 9, name: "TenTen", win: [], lost: [], picUrl: "./idolish7/9.TenTen.jpg" },
     { id: 10, name: "Ryuu", win: [], lost: [], picUrl: "./idolish7/10.Ryu.jpg" },
     { id: 11, name: "Momo", win: [], lost: [], picUrl: "./idolish7/11.Momo.jpg" },
     { id: 12, name: "Yuki", win: [], lost: [], picUrl: "./idolish7/12.Yauki.jpg" },
+
+    //Mek List
+    // { id: 1, name: "Asuka", win: [], lost: [], picUrl: "./mekwaifu/1.gif" },
+    // { id: 2, name: "Touka", win: [], lost: [], picUrl: "./mekwaifu/2.gif" },
+    // { id: 3, name: "Shinoa", win: [], lost: [], picUrl: "./mekwaifu/3.gif" },
+    // { id: 4, name: "Kurumi", win: [], lost: [], picUrl: "./mekwaifu/4.gif" },
+    // { id: 5, name: "Ai", win: [], lost: [], picUrl: "./mekwaifu/5.gif" },
 ]
+
 let leftButton = document.querySelector(".left")
 let rightButton = document.querySelector(".right")
 let drawButton = document.querySelector('.myButton')
