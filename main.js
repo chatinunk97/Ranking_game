@@ -12,6 +12,10 @@ const itemList = [
     { id: 10, name: "Ryuu", win: [], lost: [], picUrl: "./idolish7/10.Ryu.jpg" },
     { id: 11, name: "Momo", win: [], lost: [], picUrl: "./idolish7/11.Momo.jpg" },
     { id: 12, name: "Yuki", win: [], lost: [], picUrl: "./idolish7/12.Yauki.jpg" },
+    { id: 13, name: "Haruka", win: [], lost: [], picUrl: "./idolish7/13.Haruka.jpg" },
+    { id: 14, name: "Toma", win: [], lost: [], picUrl: "./idolish7/14.Toma.jpg" },
+    { id: 15, name: "Minami", win: [], lost: [], picUrl: "./idolish7/15.Minami.jpg" },
+    { id: 16, name: "Torao", win: [], lost: [], picUrl: "./idolish7/16.Torao.jpg" },
 
     //Mek List
     // { id: 1, name: "Asuka", win: [], lost: [], picUrl: "./mekwaifu/1.gif" },
